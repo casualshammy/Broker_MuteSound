@@ -1,0 +1,11 @@
+## Interface: 50400
+## Title: Broker: Mute |c50C41F3B[50400.1]|r
+## Notes: Mute/unmute sound. It's simple.
+
+# Embeds
+Libs\LibStub\Libstub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+
+# Lua
+Broker_Mute.lua
