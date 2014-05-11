@@ -8,4 +8,4 @@ Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
 Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
 
 # Lua
-Broker_Mute.lua
+Broker_MuteSound.lua
