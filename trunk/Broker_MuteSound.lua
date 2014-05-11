@@ -1,8 +1,8 @@
-local LDB = LibStub("LibDataBroker-1.1"):NewDataObject("Broker_Mute", {
+local LDB = LibStub("LibDataBroker-1.1"):NewDataObject("Broker_MuteSound", {
 	type = "data source",
 	text = "",
-	icon = (GetCVarBool("Sound_EnableAllSound") == nil and "Interface\\AddOns\\Broker_Mute\\Media\\Muted.tga") or "Interface\\AddOns\\Broker_Mute\\Media\\NotMuted.tga",
-	tocname = "Broker_Mute"}
+	icon = (GetCVarBool("Sound_EnableAllSound") == nil and "Interface\\AddOns\\Broker_MuteSound\\Media\\Muted.tga") or "Interface\\AddOns\\Broker_MuteSound\\Media\\NotMuted.tga",
+	tocname = "Broker_MuteSound"}
 );
 LDB.OnTooltipShow = function(tooltip)
 	-- // todo
@@ -13,9 +13,9 @@ end
 LDB.OnClick = function(displayFrame, button)
 	if (GetCVarBool("Sound_EnableAllSound") == nil) then
 		SetCVar("Sound_EnableAllSound", 1, true);
-		LDB.icon = "Interface\\AddOns\\Broker_Mute\\Media\\NotMuted.tga";
+		LDB.icon = "Interface\\AddOns\\Broker_MuteSound\\Media\\NotMuted.tga";
 	else
 		SetCVar("Sound_EnableAllSound", nil, true);
-		LDB.icon = "Interface\\AddOns\\Broker_Mute\\Media\\Muted.tga";
+		LDB.icon = "Interface\\AddOns\\Broker_MuteSound\\Media\\Muted.tga";
 	end
 end
