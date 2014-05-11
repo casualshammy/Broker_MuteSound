@@ -1,0 +1,7 @@
+package-as: Broker_MuteSound
+
+license-output: LICENSE.txt
+
+manual-changelog:
+    filename: CHANGELOG.html
+    markup-type: html
