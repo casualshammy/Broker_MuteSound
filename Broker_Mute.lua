@@ -6,7 +6,7 @@ local LDB = LibStub("LibDataBroker-1.1"):NewDataObject("Broker_Mute", {
 );
 LDB.OnTooltipShow = function(tooltip)
 	-- // todo
-	tooltip:AddLine("Broker: Mute");
+	tooltip:AddLine("Broker: MuteSound");
 	tooltip:AddLine("|cffeda55fLeftClick:|r mute/unmute sound");
 	-- tooltip:AddLine("|cffeda55fRightClick:|r show options");
 end
