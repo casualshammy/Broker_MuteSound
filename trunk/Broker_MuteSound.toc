@@ -1,4 +1,4 @@
-## Interface: 70200
+## Interface: 70300
 ## Title: Broker: MuteSound
 ## Notes: Mute/unmute sound. It's simple.
 
