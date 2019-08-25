@@ -1,3 +1,5 @@
+local SetCVar = C_CVar.SetCVar;
+
 local tFrame = CreateFrame("frame");
 tFrame.elapsed = 0;
 
@@ -23,9 +25,9 @@ end
 
 LDB.OnClick = function(displayFrame, button)
 	if (not GetCVarBool("Sound_EnableAllSound")) then
-		SetCVar("Sound_EnableAllSound", 1, true);
+		SetCVar("Sound_EnableAllSound", "1");
 	else
-		SetCVar("Sound_EnableAllSound", false, true);
+		SetCVar("Sound_EnableAllSound", "0");
 	end
 	Timer_OnElapsed();
 end
