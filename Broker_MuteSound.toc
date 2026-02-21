@@ -1,4 +1,4 @@
-## Interface: 100002
+## Interface: 120001
 ## Title: Broker: MuteSound
 ## Notes: Mute/unmute sound. It's simple.
 
